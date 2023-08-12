@@ -5,6 +5,5 @@ CocoDOS
 Cool and fun DOS Made on Python!
 <hr>
 # Installation
-<hr>
 1. Install Python (https://www.python.org/downloads/)
 2. Goto the main repository and press code, once you pressed 
