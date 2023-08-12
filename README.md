@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="![image](https://github.com/ccroic/CocoDOS/assets/101279082/e76ab93f-6520-49e9-9ab8-9722195ebe8e)
+<img src="![png-clipart-water-cooler-drop-water-resources-water-blue-splash](https://github.com/ccroic/CocoDOS/assets/101279082/c10b3491-96d1-4890-9ee9-f27c815cc64a)
 " alt="CocoDOS-logo" width="15%"/>
 </p>
 
