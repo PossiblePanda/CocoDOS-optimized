@@ -3,7 +3,7 @@
 <img src="https://img2.freepng.ru/20190313/ilh/kisspng-arme-mangue-coco-par-revolute-a-mlanger-avec-5c894ca9e7b382.7181026415525019299491.jpg" alt="CocoDOS-logo" width="15%"/>
 </p>
 
-<h1 align="center">Meteor</h1>
+<h1 align="center">CocoDOS</h1>
 <p align="center">A cool and fun DOS On Python!</p>
 
 <div align="center">
