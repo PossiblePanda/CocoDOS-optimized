@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://img2.freepng.ru/20190313/ilh/kisspng-arme-mangue-coco-par-revolute-a-mlanger-avec-5c894ca9e7b382.7181026415525019299491.jpg" alt="CocoDOS-logo" width="15%"/>
+<img src="https://w7.pngwing.com/pngs/117/628/png-transparent-coconut-coconut-juice-white-coconut-milk.png" alt="CocoDOS-logo" width="15%"/>
 </p>
 
 <h1 align="center">CocoDOS</h1>
