@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://icons8.com/icon/yfhTKnN2AnGO/coconut" alt="CocoDOS-logo" width="15%"/>
+<img src="https://img.icons8.com/?size=512&id=yfhTKnN2AnGO" alt="CocoDOS-logo" width="15%"/>
 </p>
 
 <h1 align="center">CocoDOS</h1>
