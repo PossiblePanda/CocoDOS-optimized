@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://w7.pngwing.com/pngs/783/371/png-transparent-two-coconuts-coconut-fruit-fruits-transparent.png" alt="CocoDOS-logo" width="15%"/>
+<img src="https://img.freepik.com/premium-photo/coconut-isolated-white-background_252965-357.jpg?w=1380" alt="CocoDOS-logo" width="15%"/>
 </p>
 
 <h1 align="center">CocoDOS</h1>
