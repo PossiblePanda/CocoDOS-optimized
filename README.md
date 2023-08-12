@@ -21,7 +21,7 @@
 1. Download Python on https://www.python.org/downloads/
 2. Goto the main repository.
 3. Press `Code`, Then download the zip file.
-4. Unzip it and open `installrequirements.py`
+4. Unzip it into any folder and open `installrequirements.py`
 5. Once it's done open `main.py`. 
 6. Enjoy!
 
