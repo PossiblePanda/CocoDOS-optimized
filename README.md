@@ -27,11 +27,11 @@
 
 ### Boot
 1. To boot the system type `boot`
-2. Theres actually no settings for `boot` just type `yes` to continue.
+Warning: Theres actually no settings for `boot`, just type `yes` to continue.
 
 ### Songs
 1. Goto the folder that you downloaded, then goto songs and you see so much songs.
-2. To play them goto the programm and then type `song` in the console and select the music to play by typing it without the format like `warno` without `.mp3`
+2. To play them type `song` in the console and select the music to play by typing it without the *format* like `warno` without `.mp3`
 3. Then it plays! Congrats!
 
 ## Bugs and Suggestions
@@ -39,6 +39,6 @@ Bug reports and suggestions should be made in this repo's [issue tracker](https:
 Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
 
 ## Credits
-This System has been made by [Sasha](https://github.com/ccroic). Also thanks for [StackOverflow](https://stackoverflow.com/) for fixing bugs, and [Youtube](https://youtu.be/) for improving features!
+This System/DOS has been made by [Sasha](https://github.com/ccroic). Also thanks for [StackOverflow](https://stackoverflow.com/) for fixing bugs, and [Youtube](https://youtu.be/) for improving features!
 
 *If you have any other questions, DM Me on my discord callled `croic`*
