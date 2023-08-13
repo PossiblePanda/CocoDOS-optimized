@@ -80,8 +80,8 @@ print("""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣧⣀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠿⠿⠶⠶⠤⠤⠶⠶⠒⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 """)
-HPMenu = input("> ")
-if HPMenu == "boot":
+ReaperMenu = input("> ")
+if ReaperMenu == "boot":
     print("Are you sure you want to boot without any settings on?")
 boot = input("boot > ")
 if boot == "yes":
@@ -117,17 +117,18 @@ Packages: ???               Theme: CatPuccino
 Shell: python 3.11.3        Terminal: py.exe
 -------------------------------------------------
 """)
-print(Fore.BLUE + "Welcome to CocoDOS V0.7!")
+print(Fore.BLUE + "Welcome to CocoDOS V0.7! Type "help" to see list of commands.")
 while True:
     command1 = input("> ")
     if command1 == "help":
         print("""
-help - list of commands
-calc - calculator
-cls - clear screen
-rand - random value
-credits - who made the system
-song - plays song
+help - list of commands.
+calc - calculator.
+cls - clear screen.
+rand - random value.
+credits - who made the system.
+song - plays song.
+ls - see desktop files.
 """)
     if command1 == "rand":
         num = random.random()
@@ -135,7 +136,7 @@ song - plays song
     if command1 == "cls":
         subprocess.run('cls', shell=True)
     if command1 == "ls":
-        path = r"C:\Users\79372\Desktop\Файлы"
+        path = r"C:\Users\79372\Desktop"
         
         l = os.listdir(path)
         print(l)
@@ -143,7 +144,7 @@ song - plays song
         for root, dirs, files in os.walk(path):
             print(files)
     if command1 == "credits":
-        print("This OS made by Sasha!")
+        print("This OS made by Sasha on GitHub!")
         print("Special thanks to stackoverflow, youtube, and many sites.")
     if command1 == "song maxwell":
         pygame.mixer.init()
