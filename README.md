@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="![kisspng-arme-mangue-coco-par-revolute-a-mlanger-avec-5c894ca9e7b3827181026415525019299491](https://github.com/ccroic/CocoDOS/assets/101279082/d2085298-b537-4c39-9d63-1e58fc928942)" alt="CocoDOS-logo" width="15%"/>
+<img src="https://cdn-icons-png.flaticon.com/512/1475/1475932.png" alt="CocoDOS-logo" width="15%"/>
 </p>
 
 <h1 align="center">CocoDOS</h1>
