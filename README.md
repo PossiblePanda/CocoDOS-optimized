@@ -23,13 +23,14 @@ For Windows:
 2. Goto the main repository, then press `Code`, and download the zip file.
 4. Extract the files in any folder.
 5. Open `Install.bat` in the folder
-7. Once it's done open `main.py`. 
+7. Once it's done installing open `main.py`. 
 8. Enjoy!
 
 For Git Bash:
 1. Type `git clone https://github.com/ccroic/CocoDOS.git` in your console.
-2. Open `Install.bat`
-3. Enjoy!
+2. Open `Install.bat`.
+3. Once it's done installing open `main.py`.
+4. Enjoy!
 
 ### Boot
 1. To boot the system type `boot`
