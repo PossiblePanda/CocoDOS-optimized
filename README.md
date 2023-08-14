@@ -29,7 +29,7 @@ For Windows:
 For Git Bash:
 1. Type `git clone https://github.com/ccroic/CocoDOS.git` in your console.
 2. Open `Install.bat`.
-3. Once it's done installing open `main.py`.
+3. Once it's done installing open `CocoDOS.py`.
 4. Enjoy!
 
 ### Boot
