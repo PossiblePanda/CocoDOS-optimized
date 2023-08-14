@@ -18,14 +18,17 @@
 ## Usage
 
 ### Installation
-For Windows:
+ For Windows:
 1. Download Python on https://www.python.org/downloads/
 2. Goto the main repository, then press `Code`, and download the zip file.
 4. Extract the files in any folder.
-5. Open CMD (Command Prompt) in directory where you extracted files, then type ````pip install -r requirements.txt````
-6. Once it's done open `main.py`. 
-7. Enjoy!
-#### Git Bash
+5. Open `Install.bat` in the folder
+7. Once it's done open `main.py`. 
+8. Enjoy!
+ For Git Bash:
+1. Type `git clone https://github.com/ccroic/CocoDOS.git` in your console.
+2. Open `Install.bat`
+3. Enjoy!
 
 ### Boot
 1. To boot the system type `boot`
