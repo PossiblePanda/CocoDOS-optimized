@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/github/last-commit/ccroic/CocoDOS" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/ccroic/CocoDOS" alt="GitHub commit activity"/>
     <img src="https://img.shields.io/github/contributors/ccroic/CocoDOS" alt="GitHub contributors"/>
-    [!][Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
     <br>
     <img src="https://img.shields.io/github/languages/code-size/ccroic/CocoDOS" alt="GitHub code size in bytes"/>
     <img src="https://tokei.rs/b1/github/ccroic/CocoDOS" alt="GitHub lines of code"/>
