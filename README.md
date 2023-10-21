@@ -32,15 +32,6 @@ For Git Bash:
 3. Once it's done installing open `CocoDOS.py`.
 4. Enjoy!
 
-### Boot
-1. To boot the system type `boot`
-Warning: Theres actually no settings for `boot`, just type `yes` to continue.
-
-### Songs
-1. Goto the folder that you downloaded, then goto songs and you see so much songs.
-2. To play them type `song` in the console and select the music to play by typing it without the *format* like `warno` without `.mp3`
-3. Then it plays! Congrats!
-
 ## Bugs and Suggestions
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/ccroic/CocoDOS/issues) using the templates provided.  
 Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
