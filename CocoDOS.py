@@ -72,6 +72,7 @@ while True:
     if command1 == "help":
         print("""
 help - list of commands.
+time - shows the current time.
 calc - calculator.
 cls - clear screen.
 rand - random value.
