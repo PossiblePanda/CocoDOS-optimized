@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">CocoDOS</h1>
-<p align="center">A cool and fun DOS On Python!</p>
+<p align="center">these python devs are wild</p>
 
 <div align="center">
     <img src="https://img.shields.io/github/last-commit/ccroic/CocoDOS" alt="GitHub last commit"/>
