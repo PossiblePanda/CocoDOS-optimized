@@ -96,10 +96,6 @@ ls - see desktop files.
     if command1 == "credits":
         print("This OS made by Sasha on GitHub!")
         print("Special thanks to stackoverflow, youtube, and many sites.")
-    if command1 == "song maxwell":
-        pygame.mixer.init()
-        pygame.mixer.music.load("songs\maxwell.mp3")
-        pygame.mixer.music.play()
     if command1 == "calc":
         calc1 = float (input("Enter first value > "))
         calc2 = float (input("Enter second value > "))
@@ -122,86 +118,20 @@ ls - see desktop files.
             print("Heres your answer!")
     if command1 == "song":
         print("Usage: song (song that you want)")
-    if command1 == "song warno":
-        pygame.mixer.init()
-        pygame.mixer.music.load("songs\warno.mp3")
-        pygame.mixer.music.play()
-    if command1 == "song sc":
-        pygame.mixer.init()
-        pygame.mixer.music.load("songs\sc.mp3")
-        pygame.mixer.music.play()
-    if command1 == "song gr":
-        pygame.mixer.init()
-        pygame.mixer.music.load("songs\gr.mp3")
-        pygame.mixer.music.play()
-    if command1 == "song mp":
-        pygame.mixer.init()
-        pygame.mixer.music.load("songs\mp.mp3")
-        pygame.mixer.music.play()
-    if command1 == "time":
-        now = datetime.datetime.now()
-        print("Current date and time is:")
         print(now.strftime("%y-%m-%d %H:%M:%S"))
-    if command1 == "song volume 0.1":
-        pygame.mixer.music.set_volume(0.1)
-    if command1 == "song volume 0.2":
-        pygame.mixer.music.set_volume(0.2)
-    if command1 == "song volume 0.3":
-        pygame.mixer.music.set_volume(0.3)
-    if command1 == "song volume 0.4":
-        pygame.mixer.music.set_volume(0.4)
-    if command1 == "song volume 0.5":
-        pygame.mixer.music.set_volume(0.5)
-    if command1 == "song volume 0.6":
-        pygame.mixer.music.set_volume(0.6)
-    if command1 == "song volume 0.7":
-        pygame.mixer.music.set_volume(0.7)
-    if command1 == "song volume 0.8":
-        pygame.mixer.music.set_volume(0.8)
-    if command1 == "song volume 0.9":
-        pygame.mixer.music.set_volume(0.9)
-    if command1 == "song volume 1":
-        pygame.mixer.music.set_volume(1)
-    if command1 == "song volume 1.1":
-        pygame.mixer.music.set_volume(1.1)
-    if command1 == "song volume 1.2":
-        pygame.mixer.music.set_volume(1.2)
-    if command1 == "song volume 1.3":
-        pygame.mixer.music.set_volume(1.3)
-    if command1 == "song volume 1.4":
-        pygame.mixer.music.set_volume(1.4)
-    if command1 == "song volume 1.5":
-        pygame.mixer.music.set_volume(1.5)
-    if command1 == "song volume 1.6":
-        pygame.mixer.music.set_volume(1.6)
-    if command1 == "song volume 1.7":
-        pygame.mixer.music.set_volume(1.7)
-    if command1 == "song volume 1.8":
-        pygame.mixer.music.set_volume(1.8) 
-    if command1 == "song volume 1.9":
-        pygame.mixer.music.set_volume(1.9)
-    if command1 == "song volume 2":
-        pygame.mixer.music.set_volume(2)
-    if command1 == "song volume 2.1":
-        pygame.mixer.music.set_volume(2.1)
-    if command1 == "song volume 2.2":
-        pygame.mixer.music.set_volume(2.2)
-    if command1 == "song volume 2.3":
-        pygame.mixer.music.set_volume(2.3)
-    if command1 == "song volume 2.4":
-        pygame.mixer.music.set_volume(2.4)
-    if command1 == "song volume 2.5":
-        pygame.mixer.music.set_volume(2.5)
-    if command1 == "song volume 2.6":
-        pygame.mixer.music.set_volume(2.6)
-    if command1 == "song volume 2.7":
-        pygame.mixer.music.set_volume(2.7)
-    if command1 == "song volume 2.8":
-        pygame.mixer.music.set_volume(2.8)
-    if command1 == "song volume 2.9":
-        pygame.mixer.music.set_volume(2.9)
-    if command1 == "song volume 3":
-        pygame.mixer.music.set_volume(3)
+
+    if command1.startswith("song") and not command1.startswith("song volume"):
+        songname = command1.split(" ")[-1] # Split text into a list using space character and get last word from list
+
+        pygame.mixer.init()
+        pygame.mixer.music.load(f"songs\{songname}.mp3") # f strings (formatted strings) are a nice way of combining text, you can make one by putting an f before quotes.
+        pygame.mixer.music.play()
+    
+    # Song Volume
+    if command1.startswith("song volume"):
+        vol = command1.split(" ")[-1] # Split text into a list using space character and get last word from list
+        pygame.mixer.music.set_volume(float(vol)) # Set volume to the volume value and make it a float
+
     if command1 == "song pause":
         pygame.mixer.music.pause()
     if command1 == "song resume":
