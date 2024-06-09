@@ -14,6 +14,9 @@
     <img src="https://img.shields.io/github/languages/code-size/ccroic/CocoDOS" alt="GitHub code size in bytes"/>
 </div>
 
+> [WARNING]
+> Expect a rewrite soon
+
 ## Usage
 
 ### Installation
